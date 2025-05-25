@@ -1,0 +1,62 @@
+#desc {
+    margin-top: 12.8333333333vw;
+}
+
+#desc > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5vw;
+}
+
+#desc > p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.descBlock-descList-icon {
+    height: 2vw;
+    width: 2vw;
+    margin-right: 0.5vw;
+}
+
+.descBlock-descList-contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.descBlock-descList-iconLinks {
+    display: flex;
+    gap: 1vw
+}
+
+@media only screen and (max-width: 1366px) {
+    #desc > h2 {
+        font-family: var(--font-ablation);
+
+    }
+
+    #desc {
+        margin-top: 10.15625vw;
+    }
+
+    #desc > div {
+        margin-top: 4.5vw;
+    }
+
+    #desc > div > p {
+        font-size: 1.82291666667vw;
+        width: 53vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #desc > div {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    #desc > div > p {
+        font-size: 3.88888888889vw;
+        width: 100%;
+    }
+}
