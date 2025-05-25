@@ -1,5 +1,11 @@
 # React + Vite
 
+Для запуска локально на компьютере нужно для начала установить все зависимости командой
+npm install
+после чего ввести npm run dev
+после внесения всех необходимых правок вводим в консоль npm run build
+и обновляем на сервере папку dist, достаточно обновить index.html и перенести в папку assets .js и .css файлы
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
